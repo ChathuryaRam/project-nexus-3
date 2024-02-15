@@ -1,0 +1,128 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+}
+
+.nav-links {
+    float: right;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Main content styles */
+main {
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero {
+    background-color: #f9f9f9;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about,
+.services,
+.contact {
+    padding: 40px 0;
+}
+
+.about h2,
+.services h2,
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-info {
+    float: left;
+}
+
+.social-links {
+    float: right;
+}
+
+.social-icon {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.social-icon:hover {
+    color: #ffc107;
+}
+.information {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.information h2 {
+    margin-bottom: 20px;
+}
+
+.information p {
+    margin-bottom: 30px;
+}
+
+.information input[type="email"] {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.information button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6f61;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.information button:hover {
+    background-color: #e35649;
+}
